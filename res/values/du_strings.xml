@@ -294,5 +294,9 @@
     <string name="ambient_doze_custom_brightness_title">Ambient brightness</string>
     <string name="ambient_doze_auto_brightness_title">Ambient auto brightness</string>
     <string name="ambient_doze_auto_brightness_summary">Use last screen-on brightness value for Ambient Display or Lift to Wake screen</string>
+	
+	<!-- setting: show CPU info-->
+    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
 </resources>
