@@ -27,4 +27,10 @@
     <!-- Density options -->
     <string name="density_category">Densité</string>
 
+    <!-- QS advanced settings -->
+    <string name="qs_column_rows_settings_title">Impostazioni Quick Tiles</string>
+    <string name="status_bar_quick_qs_pulldown">Pulldown veloce tiles</string>
+    <string name="quick_pulldown_none">Disattivato</string>
+    <string name="quick_pulldown_right">Lato destro statusbar</string>
+    <string name="quick_pulldown_left">Lato sinistro statusbar</string>
 </resources>
