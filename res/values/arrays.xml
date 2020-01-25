@@ -1395,4 +1395,14 @@
         <item>@string/enhanced_4g_lte_mode_summary_4g_calling</item>
     </string-array>
 
+    <!-- Screenshot type  -->
+    <string-array name="screenshot_type_entries">
+        <item>@string/screenshot_type_fullscreen</item>
+        <item>@string/screenshot_type_partial</item>
+    </string-array>
+    <string-array name="screenshot_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
 </resources>
