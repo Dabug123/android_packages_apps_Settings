@@ -19,7 +19,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
     <!-- DU version in About phone -->
-    <string name="rom_version_title">Franken Kang version</string>
+    <string name="rom_version_title">DU version</string>
 
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
@@ -58,11 +58,6 @@
 
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sounds</string>
-
-    <!-- Screenshot -->
-    <string name="screenshot_type_title">Screenshot type</string>
-    <string name="screenshot_type_fullscreen">Full</string>
-    <string name="screenshot_type_partial">Partial</string>
 
     <!-- Ambient Display wake gestures/music ticker -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
