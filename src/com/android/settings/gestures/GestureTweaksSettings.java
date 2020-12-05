@@ -37,9 +37,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settingslib.search.Indexable;
 
-import com.abc.support.preferences.CustomSeekBarPreference;
-import com.abc.support.preferences.SystemSettingListPreference;
-import com.abc.support.preferences.SystemSettingSwitchPreference;
+import com.dirtyunicorns.support.preferences.CustomSeekBarPreference;
+import com.dirtyunicorns.support.preferences.SystemSettingListPreference;
+import com.dirtyunicorns.support.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
