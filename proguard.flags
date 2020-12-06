@@ -72,6 +72,3 @@
 -keep class github.com.st235.lib_expandablebottombar.behavior.ExpandableBottomBarBehavior { *; }
 -keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarMenuItem** { *; }
 -keep class github.com.st235.lib_expandablebottombar.ExpandableBottomBarScrollableBehavior { *; }
-
-# Dirty Tweaks
--keep class com.dirtyunicorns.tweaks.**

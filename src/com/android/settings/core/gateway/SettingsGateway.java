@@ -161,8 +161,6 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.dirtyunicorns.tweaks.DirtyTweaks;
-
 public class SettingsGateway {
 
     /**
@@ -311,7 +309,6 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            DirtyTweaks.class.getName(),
             RunningServices.class.getName()
     };
 
@@ -352,7 +349,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
-            Settings.DirtyTweaksActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
     };
 }
