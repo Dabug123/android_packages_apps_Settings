@@ -166,13 +166,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
                     KEY_SYSTEM_NAV_GESTURAL, true /* enabled */));
         }
         if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
-                NAV_BAR_MODE_2BUTTON_OVERLAY)) {
-            candidates.add(new CandidateInfoExtra(
-                    c.getText(R.string.swipe_up_to_switch_apps_title),
-                    c.getText(R.string.swipe_up_to_switch_apps_summary),
-                    KEY_SYSTEM_NAV_2BUTTONS, true /* enabled */));
-        }
-        if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                 NAV_BAR_MODE_3BUTTON_OVERLAY)) {
             candidates.add(new CandidateInfoExtra(
                     c.getText(R.string.legacy_navigation_title),

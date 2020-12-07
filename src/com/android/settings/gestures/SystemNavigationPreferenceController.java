@@ -56,7 +56,7 @@ public class SystemNavigationPreferenceController extends BasePreferenceControll
         // Skip if the swipe up settings are not available
         if (!context.getResources().getBoolean(
                 com.android.internal.R.bool.config_swipe_up_gesture_setting_available)) {
-            return false;
+            return true;
         }
 
         // Skip if the recents component is not defined
@@ -82,7 +82,7 @@ public class SystemNavigationPreferenceController extends BasePreferenceControll
             return context.getPackageManager().getPackageInfo(overlayPackage, 0) != null;
         } catch (PackageManager.NameNotFoundException e) {
             // Not found, just return unavailable
-            return false;
+            return true;
         }
     }
 
